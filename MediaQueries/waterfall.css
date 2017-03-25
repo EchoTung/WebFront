@@ -31,26 +31,21 @@ h1{
     width:200px;
 }
 
-@media (min-width:480px){
+@media only screen and (min-width:480px){
 	.pic{
 		column-count:2;
-		-webkit-column-count:2;
-		-moz-column-count:2;
+    	-webkit-column-count:2;
 	}
 }
-
-@media (min-width:768px) {
-    .pic{
-        -webkit-column-count:4;
-        -moz-column-count:4;
-        column-count:4;
-    }
+@media only screen and (min-width:768px){
+	.pic{
+		column-count:4;
+    	-webkit-column-count:4;
+	}
 }
-
-@media (min-width:992px) {
-    .pic{
-        -webkit-column-count:5;
-        -moz-column-count:5;
-        column-count:5;
-    }
+@media only screen and (min-width:992px){
+	.pic{
+		column-count:5;
+    	-webkit-column-count:5;
+	}
 }
